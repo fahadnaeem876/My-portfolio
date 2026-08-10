@@ -1,0 +1,23 @@
+<svg width="522" height="511" viewBox="0 0 522 511" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="522" height="511" fill="#F6F8FB"/>
+  <ellipse cx="261" cy="480" rx="180" ry="20" fill="#E5E7EB"/>
+  <rect x="140" y="60" width="242" height="155" rx="14" fill="#000E2B"/>
+  <rect x="155" y="95" width="120" height="10" rx="5" fill="#FDA400"/>
+  <rect x="155" y="120" width="90" height="8" rx="4" fill="#D1D5DC" opacity="0.6"/>
+  <rect x="155" y="140" width="160" height="3" fill="#FDA400"/>
+  <text x="155" y="185" fill="white" font-family="Poppins, sans-serif" font-size="28" font-weight="700">Rs. 999</text>
+  <rect x="310" y="95" width="55" height="36" rx="4" stroke="#FDA400" stroke-width="3" fill="none"/>
+  <line x1="310" y1="113" x2="365" y2="113" stroke="#FDA400" stroke-width="3"/>
+  <circle cx="261" cy="310" r="85" fill="#FDA400" opacity="0.15"/>
+  <circle cx="261" cy="300" r="70" fill="#FDA400" opacity="0.25"/>
+  <ellipse cx="261" cy="270" rx="45" ry="50" fill="#0B1F3A"/>
+  <ellipse cx="261" cy="220" rx="38" ry="42" fill="#FDA400" opacity="0.3"/>
+  <ellipse cx="261" cy="210" rx="32" ry="36" fill="#0B1F3A"/>
+  <rect x="200" y="355" width="122" height="90" rx="45" fill="#0B1F3A"/>
+  <rect x="175" y="370" width="35" height="70" rx="17" fill="#0B1F3A" transform="rotate(-20 175 370)"/>
+  <rect x="312" y="370" width="35" height="70" rx="17" fill="#0B1F3A" transform="rotate(20 312 370)"/>
+  <rect x="215" y="395" width="92" height="110" rx="12" fill="#000E2B" stroke="#FDA400" stroke-width="3"/>
+  <rect x="228" y="415" width="66" height="8" rx="4" fill="#FDA400"/>
+  <rect x="228" y="432" width="45" height="6" rx="3" fill="#D1D5DC" opacity="0.5"/>
+  <rect x="228" y="448" width="55" height="2" fill="#FDA400"/>
+</svg>

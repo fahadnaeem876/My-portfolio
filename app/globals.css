@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00ffcc; /* Neon Mint/Teal */
+  --color-secondary: #00f0ff; /* Electric Cyan */
+  --color-accent: #3b82f6; /* Electric Blue */
+  --color-dark-bg: #030303; /* Midnight Coal */
+  --color-dark-card: rgba(13, 13, 16, 0.85); /* Dark Slate Card */
+  --color-dark-border: rgba(255, 255, 255, 0.05);
+  
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-poppins), sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #030303;
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030303;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #25252d;
+}
+
+/* Gradient text utility */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(13, 13, 16, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-glow:hover {
+  border-color: rgba(0, 255, 204, 0.35);
+  box-shadow: 0 0 35px rgba(0, 255, 204, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(0, 255, 204, 0.25);
+  color: #ffffff;
+}
