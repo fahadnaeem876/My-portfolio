@@ -220,8 +220,23 @@ export const projectsList: Project[] = [
       "Buy & Sell Marketplace — Users can post requests to buy items or create listings to sell their products.",
       "Real-Time Bidding System — Multiple users can bid on posts, and the post owner can review and accept the preferred bid.",
       "Order & Payment Management — Automatically handles order creation, payment processing, and transaction status after a bid is accepted.",
-      "Wallet & Withdrawals — Users can manage their earnings in an in-app wallet and withdraw funds through their connected payment accounts."
+      "Wallet & Withdrawals — Users can manage their earnings in an in-app wallet and withdraw funds through their connected payment accounts.",
+      "Role-Based Dashboards — Created separate buyer and seller interfaces with integrated analytics for active auctions and payouts."
     ]
+  },
+  {
+    title: "Bid The Bezel",
+    category: "node",
+    stack: ["Next.js", "Node.js", "Socket.io", "MongoDB", "Stripe"],
+    description: "A luxury watch marketplace for collectors, enthusiasts, buyers, and sellers featuring escrow-protected transactions and real-time live auction systems.",
+    bullets: [
+      "Escrow-Protected Payments — Securely holds transaction funds in escrow until delivery is confirmed by both parties, preventing fraud.",
+      "Live Watch Auctions — Designed real-time bidding channels featuring active countdown timers, bid history logs, and instant price updates.",
+      "Anti-Sniping Safeguard — Implemented automated countdown extension logic when bids are received in the final minute to ensure fair play.",
+      "Post-Payment Escrow Chat — Created secure chat windows that activate only after payment confirmation, restricting direct contact sharing.",
+      "Tiered Subscription Models — Integrated billing tiers (Basic, Gold, Executive) for watch sellers with custom listing allowances and monthly fees."
+    ],
+    liveLink: "https://www.bidthebezel.com/"
   }
 ];
 
