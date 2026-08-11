@@ -213,8 +213,8 @@ export const projectsList: Project[] = [
   },
   {
     title: "Necessi",
-    category: "node",
-    stack: ["Node.js", "Express.js", "MongoDB", "Socket.io", "Stripe"],
+    category: "laravel",
+    stack: ["Laravel", "MySQL", "Pusher", "Stripe"],
     description: "A peer-to-peer marketplace enabling users to buy or sell products through a competitive bidding system. Built with integrated order management, payment processing, digital wallets, and secure user withdrawals.",
     bullets: [
       "Buy & Sell Marketplace — Users can post requests to buy items or create listings to sell their products.",
