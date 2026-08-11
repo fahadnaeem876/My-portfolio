@@ -113,7 +113,8 @@ export const projectsList: Project[] = [
       "Designed and developed the database and backend RESTful APIs using Laravel.",
       "Implemented Firebase push notifications for instant delivery.",
       "Built a secure SOS alert system for emergency scenarios.",
-      "Created user blocking, presence channels, and privacy settings."
+      "Created user blocking, presence channels, and privacy settings.",
+      "Optimized chat database indexes, reducing message delivery latency under high concurrent load."
     ],
     liveLink: "https://teamlynk.net/"
   },
@@ -126,21 +127,23 @@ export const projectsList: Project[] = [
       "Developed course management modules and certificate upload validation.",
       "Built learning hour tracking mechanisms and reports.",
       "Monitored progress analytics and built dashboards for administrators.",
-      "Designed clean, RESTful API architecture for mobile and web clients."
+      "Designed clean, RESTful API architecture for mobile and web clients.",
+      "Implemented automated PDF certificate generation and secure email dispatch on course completion."
     ],
     liveLink: "https://play.google.com/store/apps/details?id=com.dignitestudios.mycepro&hl=en"
   },
   {
-    title: "RentWise",
+    title: "FareShare Ride-Hailing Platform",
     category: "node",
-    stack: ["Node.js", "Express.js", "MongoDB", "Auth Systems"],
-    description: "A property management platform that synchronizes property listings and allows homeowners to verify ownership while connecting renters and brokers.",
+    stack: ["Node.js", "Express.js", "MongoDB", "Socket.io", "Google Maps API"],
+    description: "Designed and developed the real-time ride-hailing backend APIs and comprehensive administrator control panels for FareShare LLC, a specialized NEMT and on-demand transit platform.",
     bullets: [
-      "Created property listing synchronization and real-time search functionality.",
-      "Built property ownership claim validation using secure document storage.",
-      "Developed document management and tenant-broker contract flows.",
-      "Built RESTful APIs with role-based access control."
-    ]
+      "Built live driver geolocation tracking and routing systems using Socket.io and Google Maps Distance Matrix APIs.",
+      "Created a multi-tenant administration control panel for dispatchers to manage drivers, verify credentials, and schedule rides.",
+      "Implemented dynamic fare estimation algorithms based on distance, traffic, and vehicle type.",
+      "Integrated secure in-app wallets and automated driver payout workflows."
+    ],
+    liveLink: "https://www.faresharellc.com/"
   },
   {
     title: "FamilyPhysEd",
@@ -190,22 +193,35 @@ export const projectsList: Project[] = [
       "Developed robust backend RESTful APIs for automatic virtual number provisioning and routing.",
       "Built secure token-based carrier authentication and authorization modules.",
       "Optimized MySQL database query execution to handle thousands of real-time transactions.",
-      "Integrated external telecom APIs for real-time inventory updates and phone number mapping."
+      "Integrated external telecom APIs for real-time inventory updates and phone number mapping.",
+      "Engineered automated CDR (Call Detail Record) logs processing and billing calculation pipelines."
     ],
     liveLink: "https://www.didx.net/"
   },
   {
-    title: "FareShare Ride-Hailing Platform",
+    title: "RentWise",
     category: "node",
-    stack: ["Node.js", "Express.js", "MongoDB", "Socket.io", "Google Maps API"],
-    description: "Designed and developed the real-time ride-hailing backend APIs and comprehensive administrator control panels for FareShare LLC, a specialized NEMT and on-demand transit platform.",
+    stack: ["Node.js", "Express.js", "MongoDB", "Auth Systems"],
+    description: "A property management platform that synchronizes property listings and allows homeowners to verify ownership while connecting renters and brokers.",
     bullets: [
-      "Built live driver geolocation tracking and routing systems using Socket.io and Google Maps Distance Matrix APIs.",
-      "Created a multi-tenant administration control panel for dispatchers to manage drivers, verify credentials, and schedule rides.",
-      "Implemented dynamic fare estimation algorithms based on distance, traffic, and vehicle type.",
-      "Integrated secure in-app wallets and automated driver payout workflows."
-    ],
-    liveLink: "https://www.faresharellc.com/"
+      "Created property listing synchronization and real-time search functionality.",
+      "Built property ownership claim validation using secure document storage.",
+      "Developed document management and tenant-broker contract flows.",
+      "Built RESTful APIs with role-based access control.",
+      "Integrated digital signature workflows for lease agreements and automated rental payment alerts."
+    ]
+  },
+  {
+    title: "Necessi",
+    category: "node",
+    stack: ["Node.js", "Express.js", "MongoDB", "Socket.io", "Stripe"],
+    description: "A peer-to-peer marketplace enabling users to buy or sell products through a competitive bidding system. Built with integrated order management, payment processing, digital wallets, and secure user withdrawals.",
+    bullets: [
+      "Buy & Sell Marketplace — Users can post requests to buy items or create listings to sell their products.",
+      "Real-Time Bidding System — Multiple users can bid on posts, and the post owner can review and accept the preferred bid.",
+      "Order & Payment Management — Automatically handles order creation, payment processing, and transaction status after a bid is accepted.",
+      "Wallet & Withdrawals — Users can manage their earnings in an in-app wallet and withdraw funds through their connected payment accounts."
+    ]
   }
 ];
 

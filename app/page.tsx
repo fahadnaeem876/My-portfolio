@@ -171,7 +171,7 @@ LIMIT 10;`;
               </div>
               
               <h1 className="font-display text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Hi, I&apos;m <span className="bg-gradient-to-r from-primary via-purple-400 to-secondary bg-clip-text text-transparent">Fahad Naeem</span>
+                Hi, I&apos;m <span className="bg-gradient-to-r from-white via-blue-100 to-primary bg-clip-text text-transparent">Fahad Naeem</span>
               </h1>
               
               <h2 className="font-display text-2xl font-bold text-slate-200 sm:text-3xl">
@@ -525,9 +525,9 @@ LIMIT 10;`;
                   key={idx}
                   className="glass-panel glass-panel-glow rounded-xl p-6 transition-all duration-300 flex flex-col justify-between"
                 >
-                  <div>
+                  <div className="flex-1 flex flex-col">
                     {/* Stack Badges */}
-                    <div className="flex flex-wrap gap-1.5">
+                    <div className="flex flex-wrap gap-1.5 min-h-[48px] content-start">
                       {project.stack.map((tech, tIdx) => (
                         <span
                           key={tIdx}
@@ -538,14 +538,14 @@ LIMIT 10;`;
                       ))}
                     </div>
 
-                    <h3 className="font-display text-xl font-bold text-white mt-4">
+                    <h3 className="font-display text-xl font-bold text-white mt-4 min-h-[56px] flex items-center">
                       {project.title}
                     </h3>
-                    <p className="mt-2 text-sm text-slate-400 leading-relaxed">
+                    <p className="mt-2 text-sm text-slate-400 leading-relaxed min-h-[80px] flex items-start">
                       {project.description}
                     </p>
 
-                    <ul className="mt-4 flex flex-col gap-2 list-none">
+                    <ul className="mt-4 flex flex-col gap-2 list-none flex-1">
                       {project.bullets.map((bullet, bIdx) => (
                         <li key={bIdx} className="text-xs sm:text-sm text-slate-300 flex items-start gap-2">
                           <span className="text-primary mt-1 shrink-0">•</span>
@@ -555,8 +555,8 @@ LIMIT 10;`;
                     </ul>
                   </div>
 
-                  {project.liveLink && (
-                    <div className="mt-6 pt-4 border-t border-white/5">
+                  <div className="mt-6 pt-4 border-t border-white/5">
+                    {project.liveLink ? (
                       <a
                         href={project.liveLink}
                         target="_blank"
@@ -570,8 +570,13 @@ LIMIT 10;`;
                           <line x1="10" y1="14" x2="21" y2="3" />
                         </svg>
                       </a>
-                    </div>
-                  )}
+                    ) : (
+                      <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-500 select-none">
+                        <span className="h-1.5 w-1.5 rounded-full bg-slate-600" />
+                        Enterprise Backend API (Private Source)
+                      </span>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>

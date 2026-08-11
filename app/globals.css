@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #00ffcc; /* Neon Mint/Teal */
-  --color-secondary: #00f0ff; /* Electric Cyan */
-  --color-accent: #3b82f6; /* Electric Blue */
+  --color-primary: #3b82f6; /* Sleek Blue */
+  --color-secondary: #4f46e5; /* Premium Indigo */
+  --color-accent: #8b5cf6; /* Modern Violet */
   --color-dark-bg: #030303; /* Midnight Coal */
   --color-dark-card: rgba(13, 13, 16, 0.85); /* Dark Slate Card */
   --color-dark-border: rgba(255, 255, 255, 0.05);
@@ -58,13 +58,13 @@ body {
 }
 
 .glass-panel-glow:hover {
-  border-color: rgba(0, 255, 204, 0.35);
-  box-shadow: 0 0 35px rgba(0, 255, 204, 0.08);
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 35px rgba(59, 130, 246, 0.06);
   transform: translateY(-2px);
 }
 
 /* Selection */
 ::selection {
-  background-color: rgba(0, 255, 204, 0.25);
+  background-color: rgba(59, 130, 246, 0.25);
   color: #ffffff;
 }
