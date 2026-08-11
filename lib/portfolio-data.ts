@@ -182,7 +182,7 @@ export const projectsList: Project[] = [
       "Developed partner referral and commission management systems.",
       "Deployed scalable Node.js API that serves client bookings."
     ],
-    liveLink: "https://nexahome-serviceprovider.vercel.app/"
+    liveLink: "https://homeowner.nexahomeapp.com/"
   },
   {
     title: "DIDX Wholesale Marketplace",
